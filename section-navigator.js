@@ -1,4 +1,3 @@
-<script>
 var sections = document.querySelectorAll("[nav='section']");
 var currentSection = 0;
 
@@ -42,4 +41,3 @@ function scrollToSection(sectionIndex) {
 
   requestAnimationFrame(animation);
 }
-</script>
